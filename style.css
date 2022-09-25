@@ -2262,6 +2262,7 @@ h4 {
         display: flex;
         flex-direction: column;
         margin-left: 5%;
+        justify-content: center;
     }
 
     .info-block h1 {
