@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="wrapper">
+        <div class="logo">
+            <img class="logo-img" src="img/logo.png">
+        </div>
+        <div class="basic-block">
+            <div class="basic-text">
+                <p class="basic-text-1">Разработка сайтов-визиток</p>
+                <h3 class="basic-text-2">Интеграция с CRM Битрикс24 уже в базовом решении</h3>
+                <div class="basic-button">
+                    <a href="#form-block">
+                        <button type="button" id="cons-btn">
+                            <span class="button-text">Получить консультацию</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-ellipse">
+            <div class="ellipse-block-1">
+                <a href="#benefits" data-tooltip="Преимущества" class="dot"></a>
+                <a href="#solution" data-tooltip="Решения" class="dot"></a>
+                <a href="#example" data-tooltip="Наши проекты" class="dot"></a>
+                <a href="#about" data-tooltip="О компании" class="dot"></a>
+                <a href="#form-block" data-tooltip="Контакты" class="dot"></a>
+            </div>
+        </div>
+    </div>
+    <div class="benefits" id="benefits">
+        <div class="benefits-text">
+            <h1>Преимущества</h1>
+        </div>
+        <div class="benefits-grid">
+            <!--Button Prev-->
+            <div class="slider-btn-left">
+                <a class="btn-prev" onclick="plusSlides(-1)">
+                    <img src="img/arrLeft.png">
+                </a>
+            </div>
+            <!-- Slide 1 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-1">
+                    <img src="./img/monitor.png" alt="monitor">
+                    </div>
+                    <span>Сайт с готовым дизайном за 3 дня</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-2">
+                    <img src="./img/settings.png" alt="settings">
+                    </div>
+                    <span>Базовая настройка CRM Битрикс24 уже включена в стоимость и доступна для вас</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-3">
+                    <img src="./img/pen.png" alt="pen">
+                    </div>
+                    <span>Обучаем пользованию сайтом и CRM для самостоятельных изменений в дальнейшем</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-4">
+                    <img src="./img/icon-user.png" alt="user">
+                    </div>
+                    <span>Консультация по настройке контекстной рекламы для вашего сайта</span>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-2">
+                        <img src="./img/settings.png" alt="settings">
+                    </div>
+                    <span>Базовая настройка CRM Битрикс24 уже включена в стоимость и доступна для вас</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-3">
+                        <img src="./img/pen.png" alt="pen">
+                    </div>
+                    <span>Обучаем пользованию сайтом и CRM для самостоятельных изменений в дальнейшем</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-4">
+                        <img src="./img/icon-user.png" alt="user">
+                    </div>
+                    <span>Консультация по настройке контекстной рекламы для вашего сайта</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-5">
+                        <img src="./img/glob.png" alt="user">
+                    </div>
+                    <span>Базовая настройка SEO  и подключение основных метрик также входит в стоимость</span>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-3">
+                        <img src="./img/pen.png" alt="pen">
+                    </div>
+                    <span>Обучаем пользованию сайтом и CRM для самостоятельных изменений в дальнейшем</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-4">
+                        <img src="./img/icon-user.png" alt="user">
+                    </div>
+                    <span>Консультация по настройке контекстной рекламы для вашего сайта</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-5">
+                        <img src="./img/glob.png" alt="user">
+                    </div>
+                    <span>Базовая настройка SEO  и подключение основных метрик также входит в стоимость</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-6">
+                        <img src="./img/icon-calendar.png" alt="settings">
+                    </div>
+                    <span>Сайт уже адаптирован под мобильную версию без дополнительных оплат</span>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-4">
+                        <img src="./img/icon-user.png" alt="user">
+                    </div>
+                    <span>Консультация по настройке контекстной рекламы для вашего сайта</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-5">
+                        <img src="./img/glob.png" alt="user">
+                    </div>
+                    <span>Базовая настройка SEO  и подключение основных метрик также входит в стоимость</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-6">
+                        <img src="./img/icon-calendar.png" alt="settings">
+                    </div>
+                    <span>Сайт уже адаптирован под мобильную версию без дополнительных оплат</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-7">
+                        <img src="./img/icon-download.png" alt="pen">
+                    </div>
+                    <span>Настроена прямая линия для получения заявок с сайта, которые сразу приходят в CRM</span>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-5">
+                        <img src="./img/glob.png" alt="user">
+                    </div>
+                    <span>Базовая настройка SEO  и подключение основных метрик также входит в стоимость</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-6">
+                        <img src="./img/icon-calendar.png" alt="settings">
+                    </div>
+                    <span>Сайт уже адаптирован под мобильную версию без дополнительных оплат</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-7">
+                        <img src="./img/icon-download.png" alt="pen">
+                    </div>
+                    <span>Настроена прямая линия для получения заявок с сайта, которые сразу приходят в CRM</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-8">
+                        <img src="./img/oblako.png" alt="user">
+                    </div>
+                    <span>Хостинг + SSL сертификат на 1 год в подарок</span>
+                </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-6">
+                        <img src="./img/icon-calendar.png" alt="settings">
+                    </div>
+                    <span>Сайт уже адаптирован под мобильную версию без дополнительных оплат</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-7">
+                        <img src="./img/icon-download.png" alt="pen">
+                    </div>
+                    <span>Настроена прямая линия для получения заявок с сайта, которые сразу приходят в CRM</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-8">
+                        <img src="./img/oblako.png" alt="user">
+                    </div>
+                    <span>Хостинг + SSL сертификат на 1 год в подарок</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-1">
+                        <img src="./img/monitor.png" alt="monitor">
+                    </div>
+                    <span>Сайт с готовым дизайном за 3 дня</span>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-7">
+                        <img src="./img/icon-download.png" alt="pen">
+                    </div>
+                    <span>Настроена прямая линия для получения заявок с сайта, которые сразу приходят в CRM</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-8">
+                        <img src="./img/oblako.png" alt="user">
+                    </div>
+                    <span>Хостинг + SSL сертификат на 1 год в подарок</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-1">
+                        <img src="./img/monitor.png" alt="monitor">
+                    </div>
+                    <span>Сайт с готовым дизайном за 3 дня</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-2">
+                        <img src="./img/settings.png" alt="settings">
+                    </div>
+                    <span>Базовая настройка CRM Битрикс24 уже включена в стоимость и доступна для вас</span>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="benefits-slides" onclick="plusSlidesImgB(1)">
+                <div class="benefits-item">
+                    <div class="img-block-8">
+                        <img src="./img/oblako.png" alt="user">
+                    </div>
+                    <span>Хостинг + SSL сертификат на 1 год в подарок</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-1">
+                        <img src="./img/monitor.png" alt="monitor">
+                    </div>
+                    <span>Сайт с готовым дизайном за 3 дня</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-2">
+                        <img src="./img/settings.png" alt="settings">
+                    </div>
+                    <span>Базовая настройка CRM Битрикс24 уже включена в стоимость и доступна для вас</span>
+                </div>
+                <div class="benefits-item">
+                    <div class="img-block-4">
+                        <img src="./img/icon-user.png" alt="user">
+                    </div>
+                    <span>Консультация по настройке контекстной рекламы для вашего сайта</span>
+                </div>
+            </div>
+            <!--Button Next-->
+            <div class="slider-btn-right">
+                <a class="btn-next" onclick="plusSlides(1)">
+                    <img src="img/arrRight.png">
+                </a>
+            </div>
+        </div>
+        <div class="container-ellipse">
+            <div class="ellipse-block-2">
+                <a href="#benefits" data-tooltip="Преимущества" class="dot"></a>
+                <a href="#solution" data-tooltip="Решения" class="dot"></a>
+                <a href="#example" data-tooltip="Наши проекты" class="dot"></a>
+                <a href="#about" data-tooltip="О компании" class="dot"></a>
+                <a href="#form-block" data-tooltip="Контакты" class="dot"></a>
+            </div>
+        </div>
+    </div>
+    <div class="solution" id="solution">
+        <div class="solution-text">
+            <h1>Решения</h1>
+        </div>
+        <div class="solution-grid">
+            <div class="solution-grid-1">
+                <h3 class="hSolution">Интернет-магазин</h3>
+                <div>
+                <p class="solution-price-1">от 500 BYN</p>
+                <span class="solution-text-1">Это сайт, который полностью адаптирован
+                    под продажу определенного вида товара</span>
+                <span class="solution-text-2">Срок изготовления - 5-7 дней</span>
+                </div>
+                <div class="button-block">
+                    <a href="#form-block">
+                <button type="button" class="solution-btn">
+                    <span class="button-text">Заказать</span>
+                </button>
+                    </a>
+                </div>
+            </div>
+            <div class="solution-grid-2">
+                <h3 class="hSolution2">Сайт-визитка</h3>
+                <div>
+                <p class="solution-price-2">от 280 BYN</p>
+                <span class="solution-text-1">Небольшой сайт для размещения
+                    информации о вашей компании</span>
+                <span class="solution-text-2">Срок изготовления - з дня</span>
+                </div>
+                <div class="button-block">
+                    <a href="#form-block">
+                <button type="button" class="solution-btn-2">
+                    <span class="button-text">Заказать</span>
+                </button>
+                    </a>
+                </div>
+            </div>
+            <div class="solution-grid-3">
+                <h3 class="hSolution3">Техническая поддержка</h3>
+                <div>
+                <p class="solution-price-3">180 BYN на год</p>
+                <span class="solution-text-3a">После реализации предлагаем
+                    Вам дополнительный пакет</span>
+                <span class="solution-text-3">Срок изготовления - 5-7 дней</span>
+                </div>
+                <div class="button-block">
+                    <a href="#form-block">
+                <button type="button" class="solution-btn-3">
+                    <span class="button-text">Заказать</span>
+                </button>
+                    </a>
+                </div>
+            </div>
+            <div class="solution-grid-4">
+                <h3 class="hSolution4">Сайт с индивидуальным решением</h3>
+                <div>
+                <p class="solution-price-4">от 1300 BYN</p>
+                <a class="solution4a" href="#form-block">Подробнее об услуге</a>
+                </div>
+                <a href="#form-block">
+                    <div class="button-block">
+                    <button type="button" class="solution-btn-4">
+                        <span class="button-text">Заказать</span>
+                    </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container-ellipse">
+            <div class="ellipse-block-3">
+                <a href="#benefits" data-tooltip="Преимущества" class="dot"></a>
+                <a href="#solution" data-tooltip="Решения" class="dot"></a>
+                <a href="#example" data-tooltip="Наши проекты" class="dot"></a>
+                <a href="#about" data-tooltip="О компании" class="dot"></a>
+                <a href="#form-block" data-tooltip="Контакты" class="dot"></a>
+            </div>
+        </div>
+    </div>
+    <div class="example" id="example">
+        <div class="ex-h1-text">
+            <h1>Несколько примеров</h1>
+        </div>
+        <div class="example-all-block">
+            <div class="slider-prev">
+                <a class="btn-prev-ex" onclick="plusSlidesEx(-1)">
+                    <img src="img/arrLeft.png">
+                </a>
+            </div>
+            <div class="example-block">
+                <!--Slide 1-->
+                <div class="example-slider-block" onclick="plusSlidesImg(1)">
+                    <div class="ex-bg">
+                        <img src="img/exbg.jpg">
+                    </div>
+                    <div class="ex-text">
+                        <span>Ритуальная мастерская «Адельгран»</span>
+                    </div>
+                </div>
+                <!--Slide 2-->
+                <div class="example-slider-block" onclick="plusSlidesImg(1)">
+                    <div class="ex-bg">
+                        <img src="img/imgEx2.jpg">
+                    </div>
+                    <div class="ex-text">
+                        <span>Мастерская рекламы «Будет видно»</span>
+                    </div>
+                </div>
+                <div class="example-slider-block" onclick="plusSlidesImg(1)">
+                    <div class="ex-bg">
+                        <img src="img/imgEx3.jpg">
+                    </div>
+                    <div class="ex-text">
+                        <span>ООО «Парусник»</span>
+                    </div>
+                </div>
+                <div class="example-slider-block" onclick="plusSlidesImg(1)">
+                    <div class="ex-bg">
+                        <img src="img/imgEx4.jpg">
+                    </div>
+                    <div class="ex-text">
+                        <span>Производство и продажа тротуарной плитки</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-next">
+                <a class="btn-next-ex" onclick="plusSlidesEx(1)">
+                    <img src="img/arrRight.png">
+                </a>
+            </div>
+            </div>
+        <div class="container-ellipse">
+            <div class="ellipse-block-4">
+                <a href="#benefits" data-tooltip="Преимущества" class="dot"></a>
+                <a href="#solution" data-tooltip="Решения" class="dot"></a>
+                <a href="#example" data-tooltip="Наши проекты" class="dot"></a>
+                <a href="#about" data-tooltip="О компании" class="dot"></a>
+                <a href="#form-block" data-tooltip="Контакты" class="dot"></a>
+            </div>
+        </div>
+        </div>
+    <div class="about" id="about">
+        <div class="about-h1-text">
+            <h1>О компании</h1>
+        </div>
+        <div class="about-block">
+            <img src="img/aboutimg.jpg">
+            <span class="about-block-text-1">
+                Начните продавать в интернете уже сегодня с
+                использованием чатов, обратных звонков,
+                рассылок, рекламы, аналитики и больше
+                никогда не теряйте клиентов. Быстрая и
+                качественная разработка сайтов, от маленьких
+                до крупных на базе 1С-Битрикс с уже
+                интегрированной CRM.
+                <br>
+                В нашем арсенале за три года более 300
+                проектов разной сложности и все они из разных
+                сфер деятельности. Команда
+                сертифицированных специалистов rostdela24
+                сделает ваш бизнес лучше!
+            </span>
+        </div>
+        <div class="container-ellipse">
+            <div class="ellipse-block-5">
+                <a href="#benefits" data-tooltip="Преимущества" class="dot"></a>
+                <a href="#solution" data-tooltip="Решения" class="dot"></a>
+                <a href="#example" data-tooltip="Наши проекты" class="dot"></a>
+                <a href="#about" data-tooltip="О компании" class="dot"></a>
+                <a href="#form-block" data-tooltip="Контакты" class="dot"></a>
+            </div>
+        </div>
+    </div>
+    <div class="form-block" id="form-block">
+        <div class="img-block">
+            <img src="img/photo.png">
+        </div>
+        <div class="info-block-answer">
+            <h2>Спасибо!</h2>
+            <p>Ваша заявка успешно отправлена,
+                в ближайшее время мы с Вами свяжемся
+            </p>
+        </div>
+        <div class="info-block">
+            <div class="info-h1">
+                <h1>Консультация и подробности</h1>
+            </div>
+            <div class="info-grid">
+                <p>Александр Гетало</p>
+                <span>Директор</span>
+                <p>+375 (29) 111-11-11</p>
+                <span>a@techin.by</span>
+            </div>
+            <form action="#" id="form" name="form">
+                <div class="input-box">
+                    <input type="text"
+                           placeholder="Ваше имя"
+                           id="name"
+                           name="name"
+                           data-reg="^[а-яА-ЯёЁa-zA-Z]+$"
+                           required/>
+                </div>
+                <div class="input-box">
+                    <input type="text"
+                           placeholder="Адрес сайта"
+                           id="address"
+                           name="address"
+                           data-reg="^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$"
+                           required
+                    />
+                </div>
+                <div class="input-box">
+                    <input type="text"
+                           placeholder="Ваш email"
+                           id="email"
+                           name="email"
+                           data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                           required/>
+                </div>
+
+                <div class="input-box">
+                    <input type="text"
+                           placeholder="Номер телефона"
+                           id="phone"
+                           name="phone"
+                           data-reg="^(\+375|80|375|)(29|25|44|33)(\d{3})(\d{2})(\d{2})$"
+                           required/>
+                </div>
+                <div class="input-comment">
+                    <textarea placeholder="Ваш комментарий"
+                              data-reg=""
+                              required></textarea>
+                </div>
+                <div class="input-button">
+                    <input type="submit"
+                           id="button"
+                           name="button"
+                           value="Получить консультацию"
+                           required
+                    />
+                </div>
+             </form>
+        </div>
+        <div class="container-ellipse">
+            <div class="ellipse-block-6">
+                <a href="#benefits" data-tooltip="Преимущества" class="dot"></a>
+                <a href="#solution" data-tooltip="Решения" class="dot"></a>
+                <a href="#example" data-tooltip="Наши проекты" class="dot"></a>
+                <a href="#about" data-tooltip="О компании" class="dot"></a>
+                <a href="#form-block" data-tooltip="Контакты" class="dot"></a>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="contacts">
+            <h2>Офис компании</h2>
+            <div class="city">
+                <img class="city-img" src="img/map/order.png">
+                <span>Минск,
+                    ул. Платонова, 1Б</span>
+            </div>
+            <div class="phone">
+                <img src="img/map/phone.png">
+                <span>+375 (44) 737-36-98</span>
+            </div>
+            <div class="contacts-mail">
+                <img src="img/map/mail.png">
+                <span>partner@rostdela24.by</span>
+            </div>
+        </div>
+    </div>
+    <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.5371170742337!2d27.586549815828526!3d53.90443078009971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfb14a3b0d4b%3A0x9f49b8bba7f15f2a!2z0YPQuy4g0J_Qu9Cw0YLQvtC90L7QstCwIDHQkSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1663836608592!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        <script src="js.js"></script>
+</body>
+</html>
